@@ -17,7 +17,7 @@ public class SwaggerConfiguration {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("org.alkanmmm"))
+                .apis(RequestHandlerSelectors.basePackage("org.alkan"))
                 .paths(PathSelectors.any())
                 .build();
     }
